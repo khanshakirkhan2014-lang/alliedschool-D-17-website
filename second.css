@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.489), rgba(0, 0, 0, 0.516)), url(https://images.pexels.com/photos/6659081/pexels-photo-6659081.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 100vh;
+}
+.h1one{
+    padding: 10px;
+    color: #ffffff;
+    background-color: blue;
+    font-size: 15px;
+    transition: 0.5s;
+    text-align: left;
+    height: 50px;
+    width: 100%;
+}
+.h1one:hover
+{
+    color: #ff0000;
+    background-color: #d4cb22;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 10vh;
+}
+.nav a{
+    background-color: rgb(255, 255, 255);
+     text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+  
+}
+.nav a:hover{
+ color:red;
+    background-color: white;
+    text-decoration: underline;
+}
+.gallery{
+    margin: 20px;
+    display: inline;
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px,1fr));
+    gap: 10px;
+}
+.gallery img{
+
+    width: 100%;
+    display: inline;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+.gallery img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.gallery img{
+    animation: fadeIn 1s ease-in-out;
+
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.h2two{
+    color: rgb(0, 0, 0);
+    background-color: blue;
+    font-size: large;
+    transition: 0.5s;
+    text-align: center;
+}
+.h2two:hover
+{
+    color: #ffffff;
+    background-color: #d4cb22;
+}
+.h2two h2{
+    color: #ffffff;
+    background-color: blue;
+    font-size: xx-large;
+    transition: 0.5s;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.h2two h2 p{
+    margin: 20px;
+    color: #ffffff;
+    background-color: blue;
+    font-size: medium;
+    transition: 0.5s;
+    text-align: center;
+}
+.navv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.navv a
+{
+    background-color: rgb(255, 255, 255);
+     text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.navv a:hover
+{
+    color:red;
+    background-color: white;
+    text-decoration: underline;
+}
+.imgg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 60vh;
+}
+.imgg img
+{   
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left:10px;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+.imgg p
+{
+    color: #000000;
+    background-color: white;
+    font-size: medium;
+    margin: 20px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+.imgg p:hover
+{
+    color: #e8e6e6;
+    background-color: white;
+}
+.img3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 60vh;
+    padding: 50px;
+}
+.img3 img
+{
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left:10px;
+    width: 50%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+.img3 h2{
+    color: #000000;
+    background-color: white;
+    font-size: medium;
+    margin: 20px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: x-large;
+}
+.img3 h2:hover
+{
+    color: #e8e6e6;
+    background-color: white;
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnn a{
+    font-size: x-large;
+    background-color: rgb(255, 255, 255);
+    color: #d4cb22;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btnn a:hover{
+    color: #ff0000;
+    background-color: #ffffff;
+}
+.nav{
+    text-align: center;
+    margin: 20px;
+    font-size: x-large;
+    color: #d4cb22;
+}
+.lastone h2{
+    color: #d4cb22;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+.lastone{
+    text-align: justify;
+    justify-content: center;
+}
+.lastone p:hover{
+     color: rgb(255, 255, 255);
+     background-color: white;
+}
